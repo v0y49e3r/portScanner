@@ -1,0 +1,19 @@
+package main
+
+import (
+	"net"
+	"strconv"
+)
+
+
+func scanPort(ipAddress string,port string){
+	address := ipAddress+" : " + strconv.Itoa(port)
+}
+
+func main() {
+	targetIP := "127.0.0.1"
+	startPort := 80
+	lastPort := 100
+
+
+}
